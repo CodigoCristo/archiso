@@ -20,7 +20,10 @@ Entramos como administrador en el explorador de archivos
 ```
 sudo thunar
 ```
-
+Abrimos una terminal como administrador
+```
+cp -r /usr/share/archiso/configs/releng/ archiso/
+```
 https://wiki.archlinux.org/index.php/Archiso_(Espa%C3%B1ol)
 https://wiki.archlinux.org/index.php/Xinit_(Espa%C3%B1ol)#Inicio_autom%C3%A1tico_de_X_al_inicio_de_sesi%C3%B3n
 https://wiki.archlinux.org/index.php/Xorg_(Espa%C3%B1ol)#Ajustar_el_arranque_de_X_(startx)
