@@ -39,12 +39,19 @@ https://wiki.archlinux.org/index.php/Zsh_(Espa%C3%B1ol)#Hacer_que_Zsh_sea_la_she
 Ordenes a usar para en el PROFILE SHELL
 ```
 xdg-user-dirs-update
+exec startx
+```
+Si quisieramos agregar xfce4
+
+Pero agregamos los paquetes de xfce4 en packages.x86_64
+```
+xdg-user-dirs-update
 exec startxfce4
 ```
 ```
 Xorg :0 -configure
 ```
-Programas básicos a usar
+Programas básicos a en packages.x86_64
 ```
 xdg-user-dirs
 xorg
