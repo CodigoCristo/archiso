@@ -44,6 +44,7 @@ exec startxfce4
 ```
 Xorg :0 -configure
 ```
+Programas básicos a usar
 ```
 xdg-user-dirs
 xorg
