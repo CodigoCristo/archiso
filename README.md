@@ -36,6 +36,7 @@ exec startxfce4
 
 Xorg :0 -configure
 
+xdg-user-dirs
 xorg
 xorg-apps
 xorg-xinit
