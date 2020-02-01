@@ -20,7 +20,7 @@ Entramos como administrador en el explorador de archivos
 ```
 sudo thunar
 ```
-Abrimos una terminal como administrador
+Abrimos una terminal como administrador y copiamos la carpeta para trabajar
 ```
 cp -r /usr/share/archiso/configs/releng/ archiso/
 ```
@@ -31,6 +31,12 @@ https://wiki.archlinux.org/index.php/Xorg_(Espa%C3%B1ol)#Ajustar_el_arranque_de_
 https://wiki.archlinux.org/index.php/Bash_(Espa%C3%B1ol)
 https://wiki.archlinux.org/index.php/Zsh_(Espa%C3%B1ol)#Hacer_que_Zsh_sea_la_shell_por_defecto
 
+
+```
+.bash_profile > si usa shell bash
+.zprofile > si usa shell zsh
+```
+Ordenes a usar para en el PROFILE SHELL
 ```
 xdg-user-dirs-update
 exec startxfce4
